@@ -1,2 +1,2 @@
 # Blog
-2. SDeneme
+2. Deneme
