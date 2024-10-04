@@ -1,3 +1,2 @@
 # Blog
-2. Deneme<br>
-site linki[Github](https://github.com/sametbakar)
+site linki[Blog](https://sametbakar.github.io/Blog/index.html)
