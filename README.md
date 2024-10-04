@@ -1,2 +1,3 @@
 # Blog
-site linki:   [Blog](https://sametbakar.github.io/Blog/index.html)
+site linki:   [Blog](https://sametbakar.github.io/Blog/index.html)<br>
+(https://sametbakar.github.io/Blog/index.html)
