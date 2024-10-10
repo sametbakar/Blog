@@ -24,7 +24,7 @@ a {
 body {
     width: 100%;
     height: 100%;
-    background-image: url("/Blog/images/background.png");
+    background-image: url("/images/background.png");
     box-shadow: inset 0 0 20rem 5rem black;
     background-repeat: round;
     
@@ -171,8 +171,34 @@ main{
 .images img{
     max-width: 100rem;
     width: 80%;
+    cursor: pointer;
 }
 
+.image{
+    position: relative;
+ text-align: center;
+}
+.images .image .image-zoom {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+.images .image .image-zoom img{
+    opacity: 0;
+}
+
+.images .image:hover .image-zoom img{
+    opacity: 1;
+    box-shadow: 0 0 1rem 0 black;
+    transform: scale(1.05);
+}
+.images .image-position{
+    display: flex;
+    justify-content: center;
+}
 
 .footer-container {
     display: flex;
